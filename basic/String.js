@@ -41,3 +41,4 @@ const arr="    hello     "
 const str2 = "Hello";
 console.log(str2.toLowerCase()); // Output: "hello"
 console.log(str2.toUpperCase()); // Output: "HELLO"
+ 
