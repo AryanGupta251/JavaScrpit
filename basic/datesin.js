@@ -11,9 +11,15 @@ let mydate= new Date()
 // console.log(typeof (mydate));  // object
 
 
-//different dates formate
+// different dates formate
 // let mycurrentdate = new Date(2024,9,12)     //year ,month,date
-// let mycurrentdate = new Date(2024,9,12) 
-// let mycurrentdate = new Date(2024,9,12) 
-// let mycurrentdate = new Date(2024,9,12) 
-console.log(mycurrentdate.toDateString());
+// let mycurrentdate = new Date(2024,9,12,5,3)   //year ,month,date ,time
+// let mycurrentdate = new Date("2023-12-09") 
+let mycurrentdate = new Date("01-10-2024") 
+// console.log(mycurrentdate.toLocaleString());
+// console.log(mycurrentdate.getTime()); //time in mili seconds
+// console.log(Math.floor(mycurrentdate.getTime()/1000)); //time in  seconds
+// console.log(mycurrentdate.getMonth());
+mycurrentdate.toLocaleString('default',{
+    calendar:"calendar"
+})
