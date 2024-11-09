@@ -32,6 +32,7 @@ const obj4={...obj1,...obj2}   // best way using spread operator
 console.log(obj4);
 */
 
+/*
 // how value can be use from database
 const user3=[
     {
@@ -54,7 +55,21 @@ console.log(user3[1].email);
 console.log(Object.keys(user3[0])); // we can access any object keys by using this method  and we get output in the form of array so that we can also use loops to itrate them
 console.log(Object.values(user3[0])); // we can access any object values by using this method  and we get output in the form of array so that we can also use loops to itrate them
 console.log(Object.entries(user3));
+*/
 
+
+// DESTRUCTOR OF AN OBJECT
+const course={
+    price:399,
+    courseinstructor:"aryan",
+    startingdate:"25/11/2024"
+}
+
+const {courseinstructor}=course
+console.log(courseinstructor);   // we dont have to write console.log(course.courseinstructor)again and again 
+
+const {courseinstructor:ins}=course // we can customise the name as well
+console.log(ins);
 
 
   
