@@ -8,6 +8,7 @@ while (i <= 10) {
 
 
 /*
+Making an array
 let myArray = ['flash', "batman", "superman","Aryan","Anamta"]
 
 let arr = 0
