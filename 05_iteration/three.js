@@ -18,7 +18,7 @@ for (const greet of greetings) {
 }
 */
 
-// Maps  => collection of key value pairs
+// Maps  => collection of key value pairs.
 
 /*
 const map = new Map()
