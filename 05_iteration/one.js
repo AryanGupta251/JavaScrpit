@@ -7,7 +7,7 @@ for (let i = 0; i <= 10; i++) {
     //console.log(element);
     
 }
-// console.log(element);  error =>out of scope 
+// console.log(element);  error => out of scope.
 
 for (let i = 1; i <= 10; i++) {
     //console.log(Outer loop value: ${i});
