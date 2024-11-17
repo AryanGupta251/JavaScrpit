@@ -1,7 +1,7 @@
-// for of
+// for 
 
 // ["", "", ""]  => str in array 
-// [{}, {}, {}]   => objects in arrays
+// [{}, {}, {}]   => objects in arrays.
 
 /*
 const arr = [1, 2, 3, 4, 5]
