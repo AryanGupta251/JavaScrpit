@@ -1,4 +1,4 @@
-// for 
+// high order loops
 
 // ["", "", ""]  => str in array 
 // [{}, {}, {}]   => objects in arrays.
@@ -30,7 +30,7 @@ map.set('IN', "India")  // Dulpicates are not allowed
 
 // console.log(map);
 //   for of loop on map 
-for (const [key, value] of map) {
+for (const [key, value] of map) {          // agur key and value ko alug alug chiye then use this syntax
     console.log(key, ':-', value);
 }
 */
@@ -42,7 +42,7 @@ const myObject = {
     game2: 'Spiderman'
 }
 
-for (const [key, value] of myObject) {
+for (const [key, value] of myObject) {  //objects are not iterable by for of loop
      console.log(key, ':-', value);
 }
 */
