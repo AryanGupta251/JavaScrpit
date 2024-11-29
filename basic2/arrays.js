@@ -56,7 +56,7 @@ console.log(Array.isArray({name:"aryan"}));  //intresting
 
 
 
-
+// array
 
 
 
