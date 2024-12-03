@@ -55,4 +55,3 @@ if (loggedInFromGoogle || loggedInFromEmail) {
 }
 
 
-// if else
